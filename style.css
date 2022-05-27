@@ -31,8 +31,9 @@ button:hover {
     width: 500px;
     height: auto;
     margin: auto;
-    padding: 0 20px;
+    padding: 0px 20px;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
 
 .message input {
@@ -42,6 +43,10 @@ button:hover {
     border: 1px solid lightgrey;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+.message-output {
+    padding: 0 5px;
+    overflow: hidden;
 }
 
 @media (max-width: 480px) {
